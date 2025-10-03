@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.png" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Global Navigation Header -->
+  <header id="global-header">
+    <div id="site-name">
+      <span class="site-static">Yury Keretsman</span>
+      <span class="site-divider"></span>
+      <span class="site-dynamic">Product Designer</span>
+    </div>
+    <nav id="tab-bar">
+      <button class="tab" data-target="section1">About</button>
+      <button class="tab" data-target="section2">Portfolio</button>
+      <button class="tab" data-target="section3">CV</button>
+      <button class="tab" data-target="section4">Contacts</button>
+    </nav>
+  </header>
+
+  <!-- Content Sections -->
+  <main>
+    <section id="section1" class="content-section active">
+      <div class="section1-wrapper">
+        <div class="section1-columns">
+          <div class="section1-bio">
+            <img 
+              src="assets/YuryKeretsman.png" 
+              alt="Yury Keretsman Product Designer" 
+              width="170" 
+              height="170"
+              class="bio-image"
+            >
+            <div class="bio-description">
+              <p class="bio-paragraph">
+                Product designer with 8+ years of experience in finance, oil & gas, biopharma, IT services, and entertainment, serving both B2B and B2C markets.
+              </p>
+              <p class="bio-paragraph">
+                I create thoughtful, functional digital experiences that balance user needs, business goals, technology, and aesthetics.
+              </p>
+            </div>
+            <div class="bio-contacts">
+              <div class="contact-row">
+                <img src="Assets/icons/email.svg" alt="Email icon" class="contact-icon">
+                <span class="contact-email">keretsmanyury@gmail.com</span>
+              </div>
+              <div class="contact-row">
+                <img src="Assets/icons/phone.svg" alt="Phone icon" class="contact-icon">
+                <span class="contact-phone">+421952156148 (Sk)<br>+380502252250 (Ua)
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="section1-works">
+            <div class="section1-works-header-row">
+              <div class="section1-works-header">Projects</div>
+              <span class="section1-works-divider"></span>
+              <a href="#" class="section1-works-link" id="see-all-link">See all &gt;</a>
+            </div>
+            <div class="section1-works-block">
+              <div class="works-thumbs">
+                <div class="works-thumb-wrapper">
+                  <img src="Assets/projects/thumbs/project-thumb-1.png" alt="Project 1" class="works-thumb-img">
+                  <div class="works-thumb-overlay">
+                    <span class="works-thumb-arrow"></span>
+                  </div>
+                  <div class="works-thumb-popup">
+                    <div class="works-thumb-popup-col">
+                      <!-- Left column content for Project 1 -->
+                    </div>
+                    <div class="works-thumb-popup-col">
+                      <!-- Right column content for Project 1 -->
+                    </div>
+                    <span class="works-thumb-popup-arrow works-thumb-popup-arrow-top"></span>
+                  </div>
+                </div>
+                <div class="works-thumb-wrapper">
+                  <img src="Assets/projects/thumbs/project-thumb-2.png" alt="Project 2" class="works-thumb-img">
+                  <div class="works-thumb-overlay">
+                    <span class="works-thumb-arrow"></span>
+                  </div>
+                  <div class="works-thumb-popup">
+                    <div class="works-thumb-popup-col">
+                      <!-- Left column content for Project 2 -->
+                    </div>
+                    <div class="works-thumb-popup-col">
+                      <!-- Right column content for Project 2 -->
+                    </div>
+                    <span class="works-thumb-popup-arrow works-thumb-popup-arrow-middle"></span>
+                  </div>
+                </div>
+                <div class="works-thumb-wrapper">
+                  <img src="Assets/projects/thumbs/project-thumb-3.png" alt="Project 3" class="works-thumb-img">
+                  <div class="works-thumb-overlay">
+                    <span class="works-thumb-arrow"></span>
+                  </div>
+                  <div class="works-thumb-popup">
+                    <div class="works-thumb-popup-col">
+                      <!-- Left column content for Project 3 -->
+                    </div>
+                    <div class="works-thumb-popup-col">
+                      <!-- Right column content for Project 3 -->
+                    </div>
+                    <span class="works-thumb-popup-arrow works-thumb-popup-arrow-bottom"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section1-footer">
+          <!-- Footer content goes here -->
+        </div>
+      </div>
+    </section>
+    <section id="section2" class="content-section">
+      <h2>Section 2</h2>
+      <button class="project-card" data-title="Project 2">Open Project 2</button>
+    </section>
+    <section id="section3" class="content-section">
+      <h2>Section 3</h2>
+      <button class="project-card" data-title="Project 3">Open Project 3</button>
+    </section>
+    <section id="section4" class="content-section">
+      <h2>Section 4</h2>
+      <button class="project-card" data-title="Project 4">Open Project 4</button>
+    </section>
+  </main>
+
+  <!-- Project Modal -->
+  <div id="project-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <h3 id="modal-title">Project Title</h3>
+      <p>Project details go here...</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
