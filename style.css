@@ -168,7 +168,7 @@ header {
 /* Section 1 Wrapper */
 .section1-wrapper {
   width: 100%;
-  min-height: calc(100vh - 56px - 36px);
+  min-height: calc(100vh - 78px - 36px);
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
