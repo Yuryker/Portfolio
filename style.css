@@ -16,6 +16,8 @@ header {
   margin-right: auto;
   height: 36px;
   margin-top: 56px;
+  padding-right: 24px;
+  padding-left: 24px;
 }
 
 /* Color variables */
@@ -41,7 +43,6 @@ header {
   overflow: hidden;
   padding-left: 4px;
   padding-right: 4px;
-  margin-right: 24px;
   /* Soft Shadow */
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.12);
 }
@@ -136,7 +137,6 @@ header {
   font-size: 18px;
   font-weight: 500;
   color: var(--black); /* ensure black text */
-  padding-left: 24px;
 }
 
 .site-static {
